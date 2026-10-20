@@ -25,7 +25,7 @@ window.NUTRIZANO_CONFIG = {
    * vía de contacto alternativa. NO inventes un número: déjalo vacío
    * hasta que la profesional lo confirme.
    */
-  whatsapp: "",
+  whatsapp: "5217531464420",
 
   redes: {
     facebook: "https://www.facebook.com/nutri.zano.nutriologa",
