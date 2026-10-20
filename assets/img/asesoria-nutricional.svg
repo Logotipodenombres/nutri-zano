@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Ilustración de una sesión de asesoría nutricional con cuaderno, plan de alimentación y fruta">
+  <defs>
+    <linearGradient id="abg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F5F3E8"/>
+      <stop offset="1" stop-color="#E5E8D6"/>
+    </linearGradient>
+    <linearGradient id="apaper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F4F2E6"/>
+    </linearGradient>
+    <linearGradient id="acup" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E4A184"/>
+      <stop offset="1" stop-color="#C97B5B"/>
+    </linearGradient>
+    <linearGradient id="aleaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8FA077"/>
+      <stop offset="1" stop-color="#5F704D"/>
+    </linearGradient>
+    <filter id="asoft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#abg)"/>
+  <circle cx="690" cy="110" r="130" fill="#F0D8CB" opacity="0.55" filter="url(#asoft)"/>
+  <circle cx="90" cy="520" r="140" fill="#DCE2CC" opacity="0.6" filter="url(#asoft)"/>
+
+  <!-- mesa -->
+  <rect x="40" y="330" width="720" height="230" rx="36" fill="#EDE7D3"/>
+  <rect x="40" y="330" width="720" height="20" rx="10" fill="#E0D8BE"/>
+
+  <!-- cuaderno / plan -->
+  <g transform="rotate(-4 300 320)">
+    <rect x="150" y="150" width="300" height="360" rx="22" fill="#D9A08A"/>
+    <rect x="168" y="140" width="300" height="360" rx="22" fill="url(#apaper)" stroke="#E4E0CE" stroke-width="2"/>
+    <rect x="168" y="140" width="300" height="52" rx="22" fill="#7C8968"/>
+    <rect x="168" y="170" width="300" height="22" fill="#7C8968"/>
+    <text x="318" y="176" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#FAF9F2" text-anchor="middle" letter-spacing="2">PLAN</text>
+    <!-- líneas de texto -->
+    <g stroke="#D8D4C2" stroke-width="7" stroke-linecap="round">
+      <line x1="196" y1="230" x2="400" y2="230"/>
+      <line x1="196" y1="262" x2="368" y2="262"/>
+      <line x1="196" y1="294" x2="392" y2="294"/>
+      <line x1="196" y1="326" x2="352" y2="326"/>
+      <line x1="196" y1="358" x2="384" y2="358"/>
+      <line x1="196" y1="390" x2="340" y2="390"/>
+      <line x1="196" y1="422" x2="376" y2="422"/>
+    </g>
+    <!-- checks -->
+    <g fill="none" stroke="#7C8968" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M180 230 l 8 9 l 14 -17"/>
+      <path d="M180 294 l 8 9 l 14 -17"/>
+      <path d="M180 358 l 8 9 l 14 -17"/>
+    </g>
+    <!-- pluma -->
+    <g stroke="#5F704D" stroke-width="10" stroke-linecap="round">
+      <line x1="446" y1="430" x2="520" y2="330"/>
+    </g>
+    <path d="M520 330 l 16 -22 l 6 24 Z" fill="#D68E70"/>
+  </g>
+
+  <!-- vaso de agua -->
+  <g>
+    <ellipse cx="600" cy="470" rx="72" ry="20" fill="#3E4A32" opacity="0.12" filter="url(#asoft)"/>
+    <path d="M548 320 h 104 l -12 140 a 40 40 0 0 1 -80 0 Z" fill="#FFFFFF" opacity="0.92"/>
+    <path d="M556 366 h 88 l -8 94 a 30 30 0 0 1 -72 0 Z" fill="#C9D8DE" opacity="0.85"/>
+    <ellipse cx="600" cy="320" rx="52" ry="14" fill="#EAF0F2"/>
+  </g>
+
+  <!-- fruta -->
+  <g>
+    <ellipse cx="690" cy="470" rx="66" ry="18" fill="#3E4A32" opacity="0.12" filter="url(#asoft)"/>
+    <circle cx="672" cy="428" r="44" fill="url(#acup)"/>
+    <circle cx="658" cy="412" r="13" fill="#F3C0AC" opacity="0.85"/>
+    <path d="M672 384 q 16 -20 40 -16 q -12 22 -40 16 Z" fill="url(#aleaf)"/>
+    <circle cx="730" cy="446" r="30" fill="#E0C08A"/>
+    <path d="M730 416 q 10 -14 26 -12 q -8 14 -26 12 Z" fill="#8FA077"/>
+  </g>
+
+  <!-- planta decorativa -->
+  <g>
+    <path d="M100 470 h 62 l -8 56 a 26 26 0 0 1 -46 0 Z" fill="#D68E70"/>
+    <path d="M96 470 h 70 v 12 h -70 Z" fill="#C97B5B"/>
+    <path d="M131 462 C 96 430 104 372 140 352 C 160 396 156 436 131 462 Z" fill="url(#aleaf)"/>
+    <path d="M131 462 C 160 424 202 424 220 452 C 190 484 152 484 131 462 Z" fill="#A9B593"/>
+  </g>
+</svg>

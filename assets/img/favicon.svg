@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" rx="44" fill="#FAF9F2"/>
+  <g transform="translate(100 108) scale(0.62) translate(-100 -100)">
+    <!-- hojas -->
+    <path d="M104 46 C 88 30 92 8 112 0 C 124 18 120 38 104 46 Z" fill="#7C8968"/>
+    <path d="M118 40 C 132 24 154 26 162 42 C 146 56 126 54 118 40 Z" fill="#A9B593"/>
+    <!-- círculo (manzana) -->
+    <path d="M100 52 C 60 52 40 88 44 124 C 48 160 72 182 100 182 C 128 182 152 160 156 124 C 160 88 140 52 100 52 Z" fill="none" stroke="#C97B5B" stroke-width="12"/>
+    <!-- tenedor -->
+    <g stroke="#5F704D" stroke-width="11" stroke-linecap="round">
+      <line x1="52" y1="70" x2="52" y2="104"/>
+      <line x1="68" y1="70" x2="68" y2="104"/>
+      <line x1="84" y1="70" x2="84" y2="104"/>
+    </g>
+    <path d="M46 106 h 46 v 8 a 22 22 0 0 1 -14 20 v 34 a 16 16 0 0 1 -18 0 v -34 a 22 22 0 0 1 -14 -20 Z" fill="#5F704D"/>
+    <!-- cuchara -->
+    <ellipse cx="140" cy="96" rx="22" ry="30" fill="#D68E70"/>
+    <rect x="132" y="120" width="16" height="56" rx="8" fill="#D68E70"/>
+  </g>
+</svg>

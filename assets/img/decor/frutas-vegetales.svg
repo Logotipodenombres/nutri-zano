@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 420" role="img" aria-label="Ilustración decorativa de frutas y vegetales con hojas en tonos salvia y terracota">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F5F3E7"/>
+      <stop offset="0.5" stop-color="#EFEDDD"/>
+      <stop offset="1" stop-color="#F5F3E7"/>
+    </linearGradient>
+    <linearGradient id="fleaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8FA077"/>
+      <stop offset="1" stop-color="#5F704D"/>
+    </linearGradient>
+    <linearGradient id="fleaf2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#B3BE9C"/>
+      <stop offset="1" stop-color="#7C8968"/>
+    </linearGradient>
+    <linearGradient id="fterra" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E4A184"/>
+      <stop offset="1" stop-color="#C97B5B"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="420" fill="url(#fbg)"/>
+
+  <!-- guirnalda de hojas -->
+  <g opacity="0.9">
+    <path d="M0 330 C 200 250 400 380 640 300 C 880 220 1120 350 1400 280" fill="none" stroke="#C7CFB2" stroke-width="6"/>
+    <path d="M120 300 C 150 268 190 268 220 292 C 190 322 150 322 120 300 Z" fill="url(#fleaf2)"/>
+    <path d="M330 336 C 356 300 396 296 424 318 C 398 352 358 358 330 336 Z" fill="url(#fleaf)"/>
+    <path d="M560 286 C 590 254 630 256 654 282 C 624 310 586 310 560 286 Z" fill="url(#fleaf2)"/>
+    <path d="M820 258 C 848 222 890 220 916 244 C 888 278 848 282 820 258 Z" fill="url(#fleaf)"/>
+    <path d="M1060 306 C 1088 272 1128 272 1152 298 C 1122 328 1086 330 1060 306 Z" fill="url(#fleaf2)"/>
+    <path d="M1270 292 C 1296 258 1338 256 1364 282 C 1334 314 1296 316 1270 292 Z" fill="url(#fleaf)"/>
+  </g>
+
+  <!-- frutas y vegetales -->
+  <g>
+    <!-- jitomate -->
+    <g transform="translate(220 150)">
+      <circle cx="0" cy="0" r="52" fill="#D2604A"/>
+      <circle cx="-16" cy="-16" r="15" fill="#F3B7A4" opacity="0.85"/>
+      <path d="M0 -52 l -18 -18 M0 -52 l 18 -18 M0 -52 l 0 -22" stroke="#5F704D" stroke-width="9" stroke-linecap="round"/>
+    </g>
+    <!-- limón -->
+    <g transform="translate(440 120)">
+      <circle cx="0" cy="0" r="46" fill="#F0D28A"/>
+      <circle cx="0" cy="0" r="34" fill="#F8E7B4"/>
+      <g stroke="#E3C177" stroke-width="5">
+        <line x1="0" y1="-32" x2="0" y2="32"/>
+        <line x1="-32" y1="0" x2="32" y2="0"/>
+        <line x1="-22" y1="-22" x2="22" y2="22"/>
+        <line x1="-22" y1="22" x2="22" y2="-22"/>
+      </g>
+    </g>
+    <!-- aguacate -->
+    <g transform="translate(700 140) rotate(-12)">
+      <ellipse cx="0" cy="0" rx="52" ry="74" fill="#B9C793"/>
+      <ellipse cx="0" cy="0" rx="38" ry="58" fill="#7C8968"/>
+      <ellipse cx="0" cy="8" rx="16" ry="24" fill="#8A6A43"/>
+    </g>
+    <!-- zanahoria -->
+    <g transform="translate(930 150) rotate(14)">
+      <path d="M0 90 C -34 40 -34 -30 0 -60 C 34 -30 34 40 0 90 Z" fill="url(#fterra)"/>
+      <path d="M0 -60 l -16 -26 M0 -60 l 0 -30 M0 -60 l 18 -24" stroke="#5F704D" stroke-width="9" stroke-linecap="round"/>
+      <g stroke="#B96A4C" stroke-width="5" opacity="0.6">
+        <line x1="-16" y1="10" x2="16" y2="10"/>
+        <line x1="-12" y1="40" x2="12" y2="40"/>
+      </g>
+    </g>
+    <!-- manzana/pera -->
+    <g transform="translate(1150 140)">
+      <path d="M0 -56 C 46 -56 62 -14 56 20 C 50 62 22 90 0 90 C -22 90 -50 62 -56 20 C -62 -14 -46 -56 0 -56 Z" fill="#C97B5B"/>
+      <path d="M0 -56 q 6 -30 34 -38 q 4 28 -34 38 Z" fill="url(#fleaf)"/>
+      <line x1="0" y1="-56" x2="0" y2="-84" stroke="#7A5B3D" stroke-width="8" stroke-linecap="round"/>
+    </g>
+    <!-- semillas -->
+    <g fill="#E0C08A">
+      <ellipse cx="580" cy="360" rx="12" ry="8" transform="rotate(20 580 360)"/>
+      <ellipse cx="620" cy="378" rx="12" ry="8" transform="rotate(-14 620 378)"/>
+      <ellipse cx="990" cy="368" rx="12" ry="8" transform="rotate(28 990 368)"/>
+    </g>
+  </g>
+</svg>

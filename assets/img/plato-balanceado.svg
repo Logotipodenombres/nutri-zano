@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Ilustración de un plato balanceado con granos, vegetales y proteína">
+  <defs>
+    <linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FAF9F2"/>
+      <stop offset="1" stop-color="#EDEFE0"/>
+    </linearGradient>
+    <linearGradient id="pplate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E9E7D8"/>
+    </linearGradient>
+    <linearGradient id="pveg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8FA077"/>
+      <stop offset="1" stop-color="#5F704D"/>
+    </linearGradient>
+    <linearGradient id="pgrain" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E7CE9B"/>
+      <stop offset="1" stop-color="#CFAB6E"/>
+    </linearGradient>
+    <linearGradient id="pprot" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E4A184"/>
+      <stop offset="1" stop-color="#C97B5B"/>
+    </linearGradient>
+    <filter id="psoft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#pbg)"/>
+  <circle cx="120" cy="90" r="130" fill="#DCE2CC" opacity="0.5" filter="url(#psoft)"/>
+  <circle cx="720" cy="520" r="150" fill="#F0D8CB" opacity="0.6" filter="url(#psoft)"/>
+
+  <!-- tabla / mantel -->
+  <rect x="70" y="380" width="660" height="180" rx="34" fill="#E8E2CE" opacity="0.75"/>
+
+  <!-- vapor -->
+  <g stroke="#A9B593" stroke-width="7" stroke-linecap="round" fill="none" opacity="0.55">
+    <path d="M360 130 c -18 -22 18 -40 0 -62"/>
+    <path d="M410 118 c -18 -22 18 -40 0 -62"/>
+  </g>
+
+  <!-- sombra -->
+  <ellipse cx="400" cy="452" rx="270" ry="52" fill="#3E4A32" opacity="0.13" filter="url(#psoft)"/>
+
+  <!-- plato -->
+  <circle cx="400" cy="300" r="220" fill="url(#pplate)"/>
+  <circle cx="400" cy="300" r="186" fill="#FBFAF3"/>
+  <circle cx="400" cy="300" r="186" fill="none" stroke="#DFDCC9" stroke-width="3"/>
+
+  <!-- área proteína -->
+  <g>
+    <ellipse cx="325" cy="255" rx="86" ry="70" fill="url(#pprot)"/>
+    <path d="M262 250 q 30 -22 62 -8 q 32 14 62 -4" stroke="#B96A4C" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.7"/>
+    <path d="M270 285 q 34 -20 66 -4 q 30 16 60 -6" stroke="#B96A4C" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.5"/>
+  </g>
+
+  <!-- área vegetales -->
+  <g>
+    <circle cx="470" cy="225" r="34" fill="url(#pveg)"/>
+    <circle cx="515" cy="270" r="27" fill="#7C8968"/>
+    <circle cx="452" cy="290" r="24" fill="#93A478"/>
+    <circle cx="498" cy="315" r="20" fill="#6B7A56"/>
+    <path d="M470 195 q 14 -22 40 -20" stroke="#5F704D" stroke-width="8" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- área granos -->
+  <g fill="url(#pgrain)">
+    <ellipse cx="330" cy="360" rx="90" ry="58"/>
+  </g>
+  <g fill="#B78F53" opacity="0.6">
+    <ellipse cx="300" cy="350" rx="8" ry="5"/>
+    <ellipse cx="335" cy="372" rx="8" ry="5" transform="rotate(20 335 372)"/>
+    <ellipse cx="365" cy="348" rx="8" ry="5" transform="rotate(-15 365 348)"/>
+    <ellipse cx="315" cy="385" rx="8" ry="5"/>
+  </g>
+
+  <!-- guarnición de hojas -->
+  <path d="M420 372 C 455 348 500 356 512 388 C 472 408 432 400 420 372 Z" fill="#8FA077"/>
+  <path d="M408 380 C 380 360 342 366 332 392 C 362 410 396 404 408 380 Z" fill="#A9B593"/>
+
+  <!-- cubiertos -->
+  <g stroke="#5F704D" stroke-width="11" stroke-linecap="round" opacity="0.9">
+    <line x1="118" y1="200" x2="118" y2="420"/>
+    <line x1="682" y1="200" x2="682" y2="420"/>
+  </g>
+  <g stroke="#5F704D" stroke-width="8" stroke-linecap="round" opacity="0.9">
+    <line x1="98" y1="205" x2="98" y2="265"/>
+    <line x1="118" y1="205" x2="118" y2="265"/>
+    <line x1="138" y1="205" x2="138" y2="265"/>
+  </g>
+
+  <!-- rodaja de limón -->
+  <g transform="rotate(-20 545 380)">
+    <circle cx="545" cy="380" r="36" fill="#F0D28A"/>
+    <circle cx="545" cy="380" r="27" fill="#F8E7B4"/>
+    <g stroke="#E3C177" stroke-width="4">
+      <line x1="545" y1="356" x2="545" y2="404"/>
+      <line x1="521" y1="380" x2="569" y2="380"/>
+      <line x1="528" y1="363" x2="562" y2="397"/>
+      <line x1="528" y1="397" x2="562" y2="363"/>
+    </g>
+  </g>
+</svg>

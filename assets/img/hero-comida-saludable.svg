@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-label="Ilustración editorial de un bowl de ensalada fresca con vegetales naturales">
+  <defs>
+    <linearGradient id="hbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FAF9F2"/>
+      <stop offset="0.55" stop-color="#F3F1E4"/>
+      <stop offset="1" stop-color="#E7E9DA"/>
+    </linearGradient>
+    <radialGradient id="hglow" cx="0.5" cy="0.42" r="0.6">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hbowl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E4A184"/>
+      <stop offset="1" stop-color="#C97B5B"/>
+    </linearGradient>
+    <linearGradient id="hleaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8FA077"/>
+      <stop offset="1" stop-color="#5F704D"/>
+    </linearGradient>
+    <linearGradient id="hleaf2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A9B593"/>
+      <stop offset="1" stop-color="#7C8968"/>
+    </linearGradient>
+    <linearGradient id="havo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9FB07E"/>
+      <stop offset="1" stop-color="#71834F"/>
+    </linearGradient>
+    <filter id="hsoft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="1100" fill="url(#hbg)"/>
+  <circle cx="180" cy="170" r="200" fill="#DCE2CC" opacity="0.55" filter="url(#hsoft)"/>
+  <circle cx="760" cy="960" r="230" fill="#F0D8CB" opacity="0.7" filter="url(#hsoft)"/>
+  <circle cx="450" cy="470" r="400" fill="url(#hglow)"/>
+
+  <!-- hojas decorativas de fondo -->
+  <g opacity="0.35">
+    <path d="M120 880 C 60 800 90 690 190 660 C 230 760 200 850 120 880 Z" fill="url(#hleaf2)"/>
+    <path d="M790 200 C 860 250 860 360 780 410 C 730 330 740 240 790 200 Z" fill="url(#hleaf2)"/>
+  </g>
+
+  <!-- sombra del bowl -->
+  <ellipse cx="450" cy="815" rx="300" ry="62" fill="#3E4A32" opacity="0.14" filter="url(#hsoft)"/>
+
+  <!-- bowl exterior -->
+  <circle cx="450" cy="560" r="330" fill="url(#hbowl)"/>
+  <circle cx="450" cy="560" r="296" fill="#FAF9F2"/>
+  <circle cx="450" cy="560" r="282" fill="#F2EEE0"/>
+
+  <!-- hojas de lechuga -->
+  <g>
+    <path d="M450 300 C 540 330 585 420 550 500 C 470 480 425 400 450 300 Z" fill="url(#hleaf)"/>
+    <path d="M330 360 C 420 350 480 430 460 515 C 380 520 320 455 330 360 Z" fill="url(#hleaf2)"/>
+    <path d="M590 420 C 660 460 670 560 610 620 C 550 580 540 490 590 420 Z" fill="url(#hleaf)"/>
+    <path d="M250 520 C 330 500 390 560 380 645 C 300 665 245 610 250 520 Z" fill="url(#hleaf)"/>
+    <path d="M640 640 C 705 680 700 775 630 810 C 580 750 585 690 640 640 Z" fill="url(#hleaf2)"/>
+    <path d="M330 700 C 405 680 470 735 460 810 C 380 830 330 780 330 700 Z" fill="url(#hleaf2)"/>
+    <path d="M480 720 C 545 710 590 765 575 830 C 510 840 470 795 480 720 Z" fill="url(#hleaf)"/>
+  </g>
+
+  <!-- jitomates cherry -->
+  <g>
+    <circle cx="305" cy="430" r="40" fill="#D2604A"/>
+    <circle cx="292" cy="417" r="12" fill="#F3B7A4" opacity="0.8"/>
+    <path d="M305 392 l-14 -14 M305 392 l14 -14 M305 392 l0 -18" stroke="#5F704D" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="585" cy="735" r="34" fill="#D2604A"/>
+    <circle cx="574" cy="724" r="10" fill="#F3B7A4" opacity="0.8"/>
+    <circle cx="410" cy="805" r="26" fill="#C9573F"/>
+  </g>
+
+  <!-- rodajas de aguacate -->
+  <g>
+    <g transform="rotate(-18 520 560)">
+      <ellipse cx="520" cy="560" rx="46" ry="70" fill="#B9C793"/>
+      <ellipse cx="520" cy="560" rx="34" ry="56" fill="url(#havo)"/>
+      <ellipse cx="520" cy="560" rx="13" ry="22" fill="#8A6A43"/>
+    </g>
+    <g transform="rotate(24 365 640)">
+      <ellipse cx="365" cy="640" rx="42" ry="64" fill="#B9C793"/>
+      <ellipse cx="365" cy="640" rx="30" ry="50" fill="url(#havo)"/>
+      <ellipse cx="365" cy="640" rx="11" ry="19" fill="#8A6A43"/>
+    </g>
+  </g>
+
+  <!-- garbanzos y semillas -->
+  <g fill="#E0C08A">
+    <circle cx="500" cy="435" r="17"/>
+    <circle cx="540" cy="465" r="13"/>
+    <circle cx="430" cy="620" r="15"/>
+    <circle cx="560" cy="620" r="12"/>
+    <circle cx="285" cy="600" r="13"/>
+    <circle cx="620" cy="530" r="14"/>
+  </g>
+  <g fill="#5F704D" opacity="0.65">
+    <ellipse cx="470" cy="670" rx="8" ry="5" transform="rotate(30 470 670)"/>
+    <ellipse cx="520" cy="690" rx="8" ry="5" transform="rotate(-20 520 690)"/>
+    <ellipse cx="330" cy="490" rx="8" ry="5" transform="rotate(12 330 490)"/>
+  </g>
+
+  <!-- gajos de limón -->
+  <g>
+    <path d="M220 720 A 82 82 0 0 1 380 720 Z" fill="#F0D28A" transform="rotate(-15 300 720)"/>
+    <path d="M238 720 A 64 64 0 0 1 362 720 Z" fill="#F8E7B4" transform="rotate(-15 300 720)"/>
+  </g>
+
+  <!-- palillos / tenedor minimalista -->
+  <g stroke="#3E4A32" stroke-width="12" stroke-linecap="round" opacity="0.85">
+    <line x1="700" y1="880" x2="810" y2="760"/>
+    <line x1="726" y1="905" x2="836" y2="785"/>
+  </g>
+</svg>

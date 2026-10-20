@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Ilustración de snacks saludables en un bol con vegetales y frutos secos">
+  <defs>
+    <linearGradient id="sbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FAF9F2"/>
+      <stop offset="1" stop-color="#EAE7D6"/>
+    </linearGradient>
+    <linearGradient id="sbowl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8FA077"/>
+      <stop offset="1" stop-color="#5F704D"/>
+    </linearGradient>
+    <linearGradient id="schip" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8B87F"/>
+      <stop offset="1" stop-color="#D2954F"/>
+    </linearGradient>
+    <filter id="ssoft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#sbg)"/>
+  <circle cx="130" cy="110" r="130" fill="#F0D8CB" opacity="0.55" filter="url(#ssoft)"/>
+  <circle cx="700" cy="510" r="150" fill="#DCE2CC" opacity="0.6" filter="url(#ssoft)"/>
+
+  <!-- sombra -->
+  <ellipse cx="400" cy="472" rx="250" ry="48" fill="#3E4A32" opacity="0.14" filter="url(#ssoft)"/>
+
+  <!-- snacks fuera del bol -->
+  <g>
+    <ellipse cx="170" cy="430" rx="42" ry="30" fill="url(#schip)" transform="rotate(-16 170 430)"/>
+    <ellipse cx="640" cy="420" rx="40" ry="28" fill="url(#schip)" transform="rotate(18 640 420)"/>
+    <ellipse cx="590" cy="466" rx="30" ry="21" fill="#E0C08A" transform="rotate(-8 590 466)"/>
+    <circle cx="222" cy="472" r="15" fill="#C9573F"/>
+    <circle cx="676" cy="466" r="12" fill="#C9573F"/>
+  </g>
+
+  <!-- bol -->
+  <path d="M180 250 h 440 a 12 12 0 0 1 12 14 c -14 118 -96 196 -232 196 S 182 382 168 264 a 12 12 0 0 1 12 -14 Z" fill="url(#sbowl)"/>
+  <ellipse cx="400" cy="250" rx="220" ry="56" fill="#6B7A56"/>
+  <ellipse cx="400" cy="250" rx="198" ry="44" fill="#4F5D3D"/>
+
+  <!-- snacks en el bol -->
+  <g>
+    <ellipse cx="330" cy="232" rx="46" ry="32" fill="url(#schip)" transform="rotate(-20 330 232)"/>
+    <ellipse cx="420" cy="218" rx="44" ry="30" fill="url(#schip)" transform="rotate(12 420 218)"/>
+    <ellipse cx="500" cy="240" rx="40" ry="28" fill="#E0C08A" transform="rotate(-8 500 240)"/>
+    <ellipse cx="378" cy="266" rx="38" ry="26" fill="url(#schip)" transform="rotate(24 378 266)"/>
+    <ellipse cx="462" cy="272" rx="34" ry="23" fill="#E8CE9B" transform="rotate(-14 462 272)"/>
+    <circle cx="286" cy="262" r="16" fill="#C9573F"/>
+    <circle cx="542" cy="212" r="13" fill="#C9573F"/>
+    <circle cx="404" cy="192" r="11" fill="#8FA077"/>
+    <path d="M404 178 q 10 -14 26 -12 q -8 14 -26 12 Z" fill="#5F704D"/>
+  </g>
+
+  <!-- hojas -->
+  <path d="M120 320 C 84 288 92 232 132 214 C 152 254 146 296 120 320 Z" fill="#A9B593" opacity="0.9"/>
+  <path d="M688 300 C 720 268 714 216 676 198 C 654 238 660 278 688 300 Z" fill="#8FA077" opacity="0.9"/>
+</svg>

@@ -1,1 +1,33 @@
-{"id":"./","name":"Nutri-Zano · Yaneth Lozano","short_name":"Nutri-Zano","description":"Nutrición, bienestar y equilibrio. Servicios y catálogo de Yaneth Lozano.","lang":"es-MX","start_url":"./index.html","scope":"./","display":"standalone","background_color":"#faf9f2","theme_color":"#526342","icons":[{"src":"assets/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},{"src":"assets/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},{"src":"assets/icon-maskable.png","sizes":"512x512","type":"image/png","purpose":"maskable"}]}
+{
+  "name": "Nutri-Zano · Nutrióloga Yaneth Lozano",
+  "short_name": "Nutri-Zano",
+  "description": "Tarjeta digital de Nutri-Zano: consulta nutricional, servicios y productos que complementan tu bienestar.",
+  "lang": "es-MX",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FAF9F2",
+  "theme_color": "#7C8968",
+  "categories": ["health", "food"],
+  "icons": [
+    {
+      "src": "assets/img/icono-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/img/icono-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/img/icono-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
