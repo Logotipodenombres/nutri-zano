@@ -4,7 +4,7 @@
    aunque el dispositivo pierda conexión temporalmente.
    ============================================================ */
 
-const CACHE = "nutrizano-v2";
+const CACHE = "nutrizano-v3";
 
 const CORE = [
   "./",
@@ -63,8 +63,10 @@ self.addEventListener("fetch", (evento) => {
 
   evento.respondWith(
     caches.match(req, { ignoreSearch: true }).then((cacheado) => {
-      if (cacheado) return cacheado;
-      return fetch(req)
+      // Red: descarga la versión actualizada y guarda la copia nueva
+      // en segundo plano (stale-while-revalidate), para que los cambios
+      // publicados lleguen a quienes ya visitaron el sitio.
+      const red = fetch(req)
         .then((respuesta) => {
           if (respuesta && respuesta.status === 200) {
             const copia = respuesta.clone();
@@ -73,9 +75,12 @@ self.addEventListener("fetch", (evento) => {
           return respuesta;
         })
         .catch(() =>
+          cacheado ||
           // Sin conexión y sin copia: página principal como respaldo
-          req.mode === "navigate" ? caches.match("index.html") : Response.error()
+          (req.mode === "navigate" ? caches.match("index.html") : Response.error())
         );
+      // Responde de inmediato con la copia guardada; si no hay, espera a la red
+      return cacheado || red;
     })
   );
 });
