@@ -118,6 +118,14 @@ y actualizar la ruta correspondiente en `products.js` o en `index.html`.
 
 ## 6. Formulario de citas
 
+> **Sistema de citas en línea (opcional):** este sitio puede enlazarse con el
+> sistema de agendado completo que vive en la carpeta `../nutri-citas`
+> (Cloudflare Workers + D1). Basta con poner la URL publicada en
+> `config.js → urlCitas` y todos los botones *Agendar cita* abrirán la agenda
+> en línea, con horarios reales, confirmación por WhatsApp y Google Calendar.
+> Consulta `../nutri-citas/README.md`. Mientras `urlCitas` esté vacía, el
+> formulario de abajo sigue funcionando como hasta ahora.
+
 - Validación de campos obligatorios con mensajes en español.
 - Confirmación previa con todos los datos antes de enviar.
 - La cita queda **pendiente de confirmación** (nunca se reserva automáticamente).

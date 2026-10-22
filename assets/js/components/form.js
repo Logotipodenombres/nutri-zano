@@ -32,6 +32,13 @@
 
   /* ---------- Apertura del modal ---------- */
   function abrirCita(motivoSugerido) {
+    // Si el sistema de citas en línea está publicado, va directo hacia allá.
+    const cfgCitas = (window.NUTRIZANO_CONFIG || {}).urlCitas;
+    if (cfgCitas) {
+      window.open(cfgCitas, "_blank", "noopener");
+      return;
+    }
+
     const m = $("#modalCita");
     if (!m) return;
     m.hidden = false;

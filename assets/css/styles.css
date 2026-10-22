@@ -515,6 +515,13 @@ a:hover {
   margin-top: 26px;
 }
 
+.hero-nota-cita {
+  margin: 14px 0 0;
+  color: var(--texto-suave);
+  font-size: 0.9rem;
+  max-width: 46ch;
+}
+
 .hero-datos {
   display: flex;
   flex-wrap: wrap;

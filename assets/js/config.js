@@ -37,6 +37,16 @@ window.NUTRIZANO_CONFIG = {
   // (GitHub Pages / Cloudflare Pages). Mientras esté vacía se usa la URL actual.
   urlPublica: "https://logotipodenombres.github.io/nutri-zano/",
 
+  /**
+   * URL del sistema de citas en línea (carpeta `nutri-citas`).
+   * Cuando la publiques, pégala aquí y todos los botones
+   * "Agendar cita" de la tarjeta abrirán la agenda en línea
+   * (con horarios reales, confirmación por WhatsApp y Google Calendar).
+   * Déjala vacía ("") mientras tanto: el formulario por WhatsApp
+   * sigue funcionando igual que antes.
+   */
+  urlCitas: "https://nutri-zano-citas.juankrad.workers.dev",
+
   /* ---------- Formulario de citas ---------- */
   formulario: {
     // Máximo de solicitudes desde el mismo navegador en 10 minutos (anti-spam local)
